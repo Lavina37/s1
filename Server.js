@@ -34,7 +34,7 @@ const firebaseConfig = {
 initializeApp(firebaseConfig); // Initialize Firebase
 
 // Initialize Firebase Admin SDK
-const serviceAccount = JSON.parse({
+const serviceAccount = ({
   "type": "service_account",
   "project_id": "folaringtest",
   "private_key_id": "1f3b749ecda713ab62880acb52b87f798b4c989f",
